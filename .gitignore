@@ -1,0 +1,30 @@
+# Go build artifacts
+/bin/
+/obj/
+/vendor/
+*.exe
+*.test
+*.out
+
+# Go modules
+go.sum
+
+# VSCode settings
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+*.log
+*.tmp
+
+# Node modules (if you add any front-end later)
+node_modules/
+
+# JetBrains IDEs
+.idea/
+
+# Misc
+*.swp
